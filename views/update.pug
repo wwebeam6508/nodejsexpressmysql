@@ -1,0 +1,7 @@
+form(action="/Update/"+data[0].id+"", method="post")
+    lable Name
+        input(type="text",name="name" value=""+data[0].name+"")
+    lable Country
+        input(type="text",name="country" value=""+data[0].country+"")
+    input(type="submit",name="submit",value="Save")
+a(href="/") Back
